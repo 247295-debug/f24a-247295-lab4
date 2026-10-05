@@ -18,7 +18,7 @@ document.getElementById("add").addEventListener("click", function () {
   const quantity = Number(qtyBox.value);
   const price = Number(priceText);
   const row = {
-    item: itemBox.value,
+    item: itemBox.value === "" ? undefined : itemBox.value,
     quantity: quantity,
     price: price,
     line: quantity * price,
