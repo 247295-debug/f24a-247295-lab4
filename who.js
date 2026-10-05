@@ -1,4 +1,4 @@
-let people = []; // starts empty until Task 11
+let people = [{ name: "Hamza" }];
 
 function draw() {
   const body = document.getElementById("list");
